@@ -1,0 +1,184 @@
+\hypertarget{class_registry}{\section{Registry Class Reference}
+\label{class_registry}\index{Registry@{Registry}}
+}
+Inheritance diagram for Registry\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_registry}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_registry_a72d07723c008ae1b9e7e3ff006dc40aa}{offset\-Exists} (\$p\-\_\-s\-Index)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_registry_ac93fbec81f07e5d15f80db907e63dc10}{get\-Instance} ()
+\item 
+static \hyperlink{class_registry_ae3e77c45ddd8ee222fa2020c25224e28}{set\-Instance} (\$p\-\_\-o\-Registry)
+\item 
+static \hyperlink{class_registry_a2fa3f8432843f2d4a983039da16d56b2}{set\-Class\-Name} (\$p\-\_\-s\-Class\-Name= '\hyperlink{class_registry}{Registry}')
+\item 
+static \hyperlink{class_registry_afd3d1c0ff850d37f8fe451be604735f3}{unset\-Instance} ()
+\item 
+static \hyperlink{class_registry_a624be586dc28014cd2c189beb7060bba}{get} (\$p\-\_\-s\-Index)
+\item 
+static \hyperlink{class_registry_adfd9ba1232394d791088a0310cd394f6}{set} (\$p\-\_\-s\-Index, \$p\-\_\-m\-Value)
+\item 
+static \hyperlink{class_registry_a2e51a1575dbd47b8e76da8cb7df36d3d}{is\-Registered} (\$p\-\_\-s\-Index)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_registry_a9f0be6ae273d3669e11c29910a0be338}{init} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_registry_a624be586dc28014cd2c189beb7060bba}{\index{Registry@{Registry}!get@{get}}
+\index{get@{get}!Registry@{Registry}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}static get (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-s\-Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_registry_a624be586dc28014cd2c189beb7060bba}
+Getter method, synonymous to offset\-Get()
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$p\-\_\-s\-Index} & -\/ get the value associated with \$index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & if no entry is registerd for \$index. \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_registry_ac93fbec81f07e5d15f80db907e63dc10}{\index{Registry@{Registry}!get\-Instance@{get\-Instance}}
+\index{get\-Instance@{get\-Instance}!Registry@{Registry}}
+\subsubsection[{get\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static get\-Instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_registry_ac93fbec81f07e5d15f80db907e63dc10}
+Getter for \hyperlink{class_registry}{Registry}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_registry}{Registry} 
+\end{DoxyReturn}
+\hypertarget{class_registry_a9f0be6ae273d3669e11c29910a0be338}{\index{Registry@{Registry}!init@{init}}
+\index{init@{init}!Registry@{Registry}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}static init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}}\label{class_registry_a9f0be6ae273d3669e11c29910a0be338}
+Initialize this instance
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{class_registry_a2e51a1575dbd47b8e76da8cb7df36d3d}{\index{Registry@{Registry}!is\-Registered@{is\-Registered}}
+\index{is\-Registered@{is\-Registered}!Registry@{Registry}}
+\subsubsection[{is\-Registered}]{\setlength{\rightskip}{0pt plus 5cm}static is\-Registered (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-s\-Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_registry_a2e51a1575dbd47b8e76da8cb7df36d3d}
+Checks if a value is registered, synonymous to \hyperlink{class_registry_a72d07723c008ae1b9e7e3ff006dc40aa}{offset\-Exists()}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$p\-\_\-s\-Index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True if \$p\-\_\-s\-Index is a named value in the registry, false otherwise 
+\end{DoxyReturn}
+\hypertarget{class_registry_a72d07723c008ae1b9e7e3ff006dc40aa}{\index{Registry@{Registry}!offset\-Exists@{offset\-Exists}}
+\index{offset\-Exists@{offset\-Exists}!Registry@{Registry}}
+\subsubsection[{offset\-Exists}]{\setlength{\rightskip}{0pt plus 5cm}offset\-Exists (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-s\-Index}
+\end{DoxyParamCaption}
+)}}\label{class_registry_a72d07723c008ae1b9e7e3ff006dc40aa}
+Wrapper method for offset\-Exists
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\hypertarget{class_registry_adfd9ba1232394d791088a0310cd394f6}{\index{Registry@{Registry}!set@{set}}
+\index{set@{set}!Registry@{Registry}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}static set (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-s\-Index, }
+\item[{}]{\$p\-\_\-m\-Value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_registry_adfd9ba1232394d791088a0310cd394f6}
+Setter method, synonymous to offset\-Set().
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$p\-\_\-s\-Index} & The location in the Array\-Object in which to store the value. \\
+\hline
+mixed & {\em \$p\-\_\-m\-Value} & The object to store in the Array\-Object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{class_registry_a2fa3f8432843f2d4a983039da16d56b2}{\index{Registry@{Registry}!set\-Class\-Name@{set\-Class\-Name}}
+\index{set\-Class\-Name@{set\-Class\-Name}!Registry@{Registry}}
+\subsubsection[{set\-Class\-Name}]{\setlength{\rightskip}{0pt plus 5cm}static set\-Class\-Name (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-s\-Class\-Name = {\ttfamily '{\bf Registry}'}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_registry_a2fa3f8432843f2d4a983039da16d56b2}
+Setter for Class\-Name
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$p\-\_\-s\-Class\-Name} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_registry_ae3e77c45ddd8ee222fa2020c25224e28}{\index{Registry@{Registry}!set\-Instance@{set\-Instance}}
+\index{set\-Instance@{set\-Instance}!Registry@{Registry}}
+\subsubsection[{set\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static set\-Instance (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-o\-Registry}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_registry_ae3e77c45ddd8ee222fa2020c25224e28}
+Setter for \hyperlink{class_registry}{Registry}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\hyperlink{class_registry}{Registry} & {\em \$p\-\_\-o\-Registry} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_registry_afd3d1c0ff850d37f8fe451be604735f3}{\index{Registry@{Registry}!unset\-Instance@{unset\-Instance}}
+\index{unset\-Instance@{unset\-Instance}!Registry@{Registry}}
+\subsubsection[{unset\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static unset\-Instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_registry_afd3d1c0ff850d37f8fe451be604735f3}
+Unsets the registry
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/pa/web-\/projects/arbetsprov-\/project/arbetsprov.\-git/arbetsprov/application/lib/Registry.\-php\end{DoxyCompactItemize}

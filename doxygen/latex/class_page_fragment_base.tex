@@ -1,0 +1,95 @@
+\hypertarget{class_page_fragment_base}{\section{Page\-Fragment\-Base Class Reference}
+\label{class_page_fragment_base}\index{Page\-Fragment\-Base@{Page\-Fragment\-Base}}
+}
+Inheritance diagram for Page\-Fragment\-Base\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_page_fragment_base}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_page_fragment_base_a0ebe09bd9f1f77ba934cb294606e010a}{append\-To\-Registry} (\$p\-\_\-s\-String\-To\-Add, \$p\-\_\-s\-Registry\-Key= 'main\-Content')
+\item 
+static \hyperlink{class_page_fragment_base_a86cc978fc5c3f2428380e6b9cad87b52}{get\-Registry} (\$p\-\_\-s\-Registry\-Key)
+\item 
+static \hyperlink{class_page_fragment_base_a5cb82f6d34119ef797d1820a5d3d585e}{set\-Registry} (\$p\-\_\-s\-Registry\-Key, \$p\-\_\-s\-Content)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+const \hyperlink{class_page_fragment_base_a3948c042f5024ab0264a5413294eff6a}{N\-L} = \char`\"{}\textbackslash{}n\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_page_fragment_base_a0ebe09bd9f1f77ba934cb294606e010a}{\index{Page\-Fragment\-Base@{Page\-Fragment\-Base}!append\-To\-Registry@{append\-To\-Registry}}
+\index{append\-To\-Registry@{append\-To\-Registry}!PageFragmentBase@{Page\-Fragment\-Base}}
+\subsubsection[{append\-To\-Registry}]{\setlength{\rightskip}{0pt plus 5cm}static append\-To\-Registry (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-s\-String\-To\-Add, }
+\item[{}]{\$p\-\_\-s\-Registry\-Key = {\ttfamily 'mainContent'}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_page_fragment_base_a0ebe09bd9f1f77ba934cb294606e010a}
+Adds an extra string to the specified registry entry.
+
+Intended to be called from methods needing to append strings to texts sent to the clients or for general display area build-\/up.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$p\-\_\-s\-String\-To\-Add} & String to add to the registry \\
+\hline
+string & {\em \$p\-\_\-s\-Registry\-Key} & \hyperlink{class_registry}{Registry} key, may be defined in the calling methods, defaults to main\-Content \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Always true in lieu of void 
+\end{DoxyReturn}
+\hypertarget{class_page_fragment_base_a86cc978fc5c3f2428380e6b9cad87b52}{\index{Page\-Fragment\-Base@{Page\-Fragment\-Base}!get\-Registry@{get\-Registry}}
+\index{get\-Registry@{get\-Registry}!PageFragmentBase@{Page\-Fragment\-Base}}
+\subsubsection[{get\-Registry}]{\setlength{\rightskip}{0pt plus 5cm}static get\-Registry (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-s\-Registry\-Key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_page_fragment_base_a86cc978fc5c3f2428380e6b9cad87b52}
+Fetches the content of a registry
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$p\-\_\-s\-Registry\-Key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string \hyperlink{class_registry}{Registry} content, or empty string if not defined 
+\end{DoxyReturn}
+\hypertarget{class_page_fragment_base_a5cb82f6d34119ef797d1820a5d3d585e}{\index{Page\-Fragment\-Base@{Page\-Fragment\-Base}!set\-Registry@{set\-Registry}}
+\index{set\-Registry@{set\-Registry}!PageFragmentBase@{Page\-Fragment\-Base}}
+\subsubsection[{set\-Registry}]{\setlength{\rightskip}{0pt plus 5cm}static set\-Registry (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-s\-Registry\-Key, }
+\item[{}]{\$p\-\_\-s\-Content}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_page_fragment_base_a5cb82f6d34119ef797d1820a5d3d585e}
+Sets (replaces) the content of a registry
+
+The registry key is mandatory in order to minimize the risk of unintentionally replacing a registry
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$p\-\_\-s\-Registry\-Key} & \\
+\hline
+string & {\em \$p\-\_\-s\-Content} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Field Documentation}
+\hypertarget{class_page_fragment_base_a3948c042f5024ab0264a5413294eff6a}{\index{Page\-Fragment\-Base@{Page\-Fragment\-Base}!N\-L@{N\-L}}
+\index{N\-L@{N\-L}!PageFragmentBase@{Page\-Fragment\-Base}}
+\subsubsection[{N\-L}]{\setlength{\rightskip}{0pt plus 5cm}const N\-L = \char`\"{}\textbackslash{}n\char`\"{}}}\label{class_page_fragment_base_a3948c042f5024ab0264a5413294eff6a}
+Constant for the newline character 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/pa/web-\/projects/arbetsprov-\/project/arbetsprov.\-git/arbetsprov/application/page\-Fragments/page\-Fragment\-Base.\-php\end{DoxyCompactItemize}

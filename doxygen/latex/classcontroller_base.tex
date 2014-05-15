@@ -1,0 +1,110 @@
+\hypertarget{classcontroller_base}{\section{controller\-Base Class Reference}
+\label{classcontroller_base}\index{controller\-Base@{controller\-Base}}
+}
+Inheritance diagram for controller\-Base\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcontroller_base}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcontroller_base_a149eb92716c1084a935e04a8d95f7347}{index} ()
+\item 
+\hyperlink{classcontroller_base_a4be4055f3361d4800e16bc2e2e38cda6}{init} ()
+\item 
+\hyperlink{classcontroller_base_ac5e4cfad8999c9ab307b0eabded05722}{render\-View} (\$p\-\_\-s\-View= '\hyperlink{classcontroller_base_a149eb92716c1084a935e04a8d95f7347}{index}')
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcontroller_base_aa31bfdfbf8e089ed8054ff81aac51985}{set\-Db} (\hyperlink{classdb}{db} \$p\-\_\-o\-Db)
+\item 
+\hyperlink{classcontroller_base_aceb656ee5135578ab3a9947252caa772}{get\-Db} ()
+\item 
+\hyperlink{classcontroller_base_af1923f06f51143b20e3af00b02148c5d}{is\-Http\-Post} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcontroller_base_aceb656ee5135578ab3a9947252caa772}{\index{controller\-Base@{controller\-Base}!get\-Db@{get\-Db}}
+\index{get\-Db@{get\-Db}!controllerBase@{controller\-Base}}
+\subsubsection[{get\-Db}]{\setlength{\rightskip}{0pt plus 5cm}get\-Db (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classcontroller_base_aceb656ee5135578ab3a9947252caa772}
+Getter for the database connection
+
+\begin{DoxyReturn}{Returns}
+db 
+\end{DoxyReturn}
+\hypertarget{classcontroller_base_a149eb92716c1084a935e04a8d95f7347}{\index{controller\-Base@{controller\-Base}!index@{index}}
+\index{index@{index}!controllerBase@{controller\-Base}}
+\subsubsection[{index}]{\setlength{\rightskip}{0pt plus 5cm}index (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}}}\label{classcontroller_base_a149eb92716c1084a935e04a8d95f7347}
+all controllers must contain an index method \hypertarget{classcontroller_base_a4be4055f3361d4800e16bc2e2e38cda6}{\index{controller\-Base@{controller\-Base}!init@{init}}
+\index{init@{init}!controllerBase@{controller\-Base}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcontroller_base_a4be4055f3361d4800e16bc2e2e38cda6}
+Initiates request handling and other basics common to all controllers and actions
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classabstract_controller}{abstract\-Controller} 
+\end{DoxySeeAlso}
+\hypertarget{classcontroller_base_af1923f06f51143b20e3af00b02148c5d}{\index{controller\-Base@{controller\-Base}!is\-Http\-Post@{is\-Http\-Post}}
+\index{is\-Http\-Post@{is\-Http\-Post}!controllerBase@{controller\-Base}}
+\subsubsection[{is\-Http\-Post}]{\setlength{\rightskip}{0pt plus 5cm}is\-Http\-Post (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classcontroller_base_af1923f06f51143b20e3af00b02148c5d}
+Determines whether the request method was H\-T\-T\-P-\/\-Post or not
+
+\begin{DoxyReturn}{Returns}
+bool True if H\-T\-T\-P-\/\-Post was used, false otherwise 
+\end{DoxyReturn}
+\hypertarget{classcontroller_base_ac5e4cfad8999c9ab307b0eabded05722}{\index{controller\-Base@{controller\-Base}!render\-View@{render\-View}}
+\index{render\-View@{render\-View}!controllerBase@{controller\-Base}}
+\subsubsection[{render\-View}]{\setlength{\rightskip}{0pt plus 5cm}render\-View (
+\begin{DoxyParamCaption}
+\item[{}]{\$p\-\_\-s\-View = {\ttfamily '{\bf index}'}}
+\end{DoxyParamCaption}
+)}}\label{classcontroller_base_ac5e4cfad8999c9ab307b0eabded05722}
+Sends all content to the view to be rendered by the template
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$p\-\_\-s\-View} & The view to to call. Defaults to 'index' \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{classcontroller_base_aa31bfdfbf8e089ed8054ff81aac51985}{\index{controller\-Base@{controller\-Base}!set\-Db@{set\-Db}}
+\index{set\-Db@{set\-Db}!controllerBase@{controller\-Base}}
+\subsubsection[{set\-Db}]{\setlength{\rightskip}{0pt plus 5cm}set\-Db (
+\begin{DoxyParamCaption}
+\item[{{\bf db}}]{\$p\-\_\-o\-Db}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classcontroller_base_aa31bfdfbf8e089ed8054ff81aac51985}
+Setter for the database connection
+
+
+\begin{DoxyParams}[1]{Parameters}
+db & {\em \$p\-\_\-o\-Db} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/pa/web-\/projects/arbetsprov-\/project/arbetsprov.\-git/arbetsprov/application/controllers/controller\-Base.\-php\end{DoxyCompactItemize}
