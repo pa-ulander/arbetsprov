@@ -1,0 +1,9 @@
+AddDefaultCharset UTF-8
+## Rewrite rules ##
+RewriteEngine on
+RewriteBase /
+
+Options +FollowSymLinks
+Options -Indexes
+
+RewriteRule !\.(js|ico|gif|jpg|png|css)$ index.php
