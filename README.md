@@ -1,7 +1,8 @@
 arbetsprov
 ==========
 
-Lösning på en uppgift jag fick göra på en konsultintervju som ägde rum i juli 2012.
+Detta repos innehåller en lösning på en praktisk koduppgift jag fick göra på en konsultintervju som ägde rum i juli 2012.
+Koden är avsedd att köras på en vanlig LAMP-stack.
 
 ### Uppgift
 Din uppgift går ut på att skapa ett inmatningsformulär som ska spara inmatad data i en databas. 
