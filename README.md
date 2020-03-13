@@ -35,8 +35,8 @@ XML-formatet ska se ut såhär:
 </programs>
 ```
 #### Regler
-    • Det finns inga krav på en funktionell design, bara det finns ett system som fungerar enligt kraven ovan med en enkel navigering för listande och skapande av nytt innehåll. 
-    • Viktigt är att den XML som skapas är välformaterad och inte innehåller några valideringsfel.
-    • Koden ska innehålla kommentarer (gärna Doxygen).
-    • Koden ska vara av sådan kvalitet att den kan användas i en produktionsmiljö.
-    • Det är ej tillåtet att använda något ramverk, all kod skall vara skriven av dig.
+* Det finns inga krav på en funktionell design, bara det finns ett system som fungerar enligt kraven ovan med en enkel navigering för listande och skapande av nytt innehåll. 
+* Viktigt är att den XML som skapas är välformaterad och inte innehåller några valideringsfel.
+* Koden ska innehålla kommentarer (gärna Doxygen).
+* Koden ska vara av sådan kvalitet att den kan användas i en produktionsmiljö.
+* Det är ej tillåtet att använda något ramverk, all kod skall vara skriven av dig.
