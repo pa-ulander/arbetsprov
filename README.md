@@ -1,18 +1,19 @@
-arbetsprov
-==========
+# arbetsprov
 
 Detta repos innehåller en lösning på en praktisk koduppgift jag fick göra på en konsultintervju som ägde rum i juli 2012.
 Koden är avsedd att köras på en vanlig LAMP-stack.
 
 ### Uppgift
-Din uppgift går ut på att skapa ett inmatningsformulär som ska spara inmatad data i en databas. 
 
-Genom ett enkelt gränssnitt ska man sedan kunna lista informationen i tabellform men även kunna få det presenterat som en xml-fil enligt formatet nedan. Detta betyder att formuläret måste kunna ta denna datan som är definerad i xmlen som input. 
+Din uppgift går ut på att skapa ett inmatningsformulär som ska spara inmatad data i en databas.
 
-Det ska även finnas möjlighet att ta bort rader ur tabellen via gränssnittet. Systemet ska ha stöd för ett oändligt antal rader med information. 
+Genom ett enkelt gränssnitt ska man sedan kunna lista informationen i tabellform men även kunna få det presenterat som en xml-fil enligt formatet nedan. Detta betyder att formuläret måste kunna ta denna datan som är definerad i xmlen som input.
+
+Det ska även finnas möjlighet att ta bort rader ur tabellen via gränssnittet. Systemet ska ha stöd för ett oändligt antal rader med information.
 
 XML-formatet ska se ut såhär:
-```xml
+
+``` xml
 <programs>
    <program>
       <date>2009-04-16T17:33:00+00:00</date>
@@ -35,9 +36,11 @@ XML-formatet ska se ut såhär:
    <program>......</program>
 </programs>
 ```
+
 #### Regler
-* Det finns inga krav på en funktionell design, bara det finns ett system som fungerar enligt kraven ovan med en enkel navigering för listande och skapande av nytt innehåll. 
+
+* Det är **ej tillåtet** att använda något ramverk eller byggverktyget composer. **All kod skall vara skriven av dig**.
+* Det finns inga krav på en funktionell design, bara det finns ett system som fungerar enligt kraven ovan med en enkel navigering för listande och skapande av nytt innehåll.
 * Viktigt är att den XML som skapas är välformaterad och inte innehåller några valideringsfel.
 * Koden ska innehålla kommentarer (gärna Doxygen).
 * Koden ska vara av sådan kvalitet att den kan användas i en produktionsmiljö.
-* Det är ej tillåtet att använda något ramverk, all kod skall vara skriven av dig.
